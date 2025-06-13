@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D Rajitha - Personal Portfolio</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="light-theme">
+
+  <!-- =================== HEADER & NAVIGATION =================== -->
+  <header>
+    <div class="nav">
+      <nav class="navbar">
+        <a href="#">
+          <img src="https://i.postimg.cc/nrDzPQGL/logo-light.png" alt="logo" width="150" class="logo-light">
+          <img src="https://i.postimg.cc/zGS7VxRq/logo-dark.png" alt="logo" width="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+
+        <div class="flex-wrapper">
+          <ul class="desktop-nav">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About me</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <!-- <li><a href="https://drive.google.com/file/d/1E6LgnislSuooDU4ckt3ztWq_l2uLX7bj/view?usp=drive_link" class="nav-link" target="_blank">Download CV</a></li> -->
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </ul>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div class="mobile-nav">
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+            <p class="h3 nav-title">Menu</p>
+            <ul>
+              <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+              <li class="nav-item"><a href="https://drive.google.com/file/d/1E6LgnislSuooDU4ckt3ztWq_l2uLX7bj/view?usp=drive_link" class="nav-link" target="_blank">Download CV</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =================== MAIN CONTENT =================== -->
+  <main>
+
+    <!-- ========== HOME SECTION ========== -->
+    <section id="home" class="area">
+      <ul class="circles">
+        <li></li><li></li><li></li><li></li><li></li>
+        <li></li><li></li><li></li><li></li><li></li>
+
+        <div class="hero"> 
+          <div class="container">
+            <div class="left">
+              <h1 class="h1">Hi, I'm <b>Dilan&nbsp;Rajitha</b><br>FullStack Developer</h1>
+              <p class="h3">Software <abbr title="Accessibility">Engineering</abbr> Undergraduate</p>
+              <div class="btn-group">
+                <!-- <a href="#contact" class="btn btn-primary">Contact me</a> -->
+                <!-- <a href="https://drive.google.com/file/d/1E6LgnislSuooDU4ckt3ztWq_l2uLX7bj/view?usp=drive_link" class="btn btn-primary" target="_blank">Download CV</a> -->
+                <!-- <a href="#about" class="btn btn-secondary">About me</a> -->
+
+                 <div class="social-links">
+                    <a href="https://www.linkedin.com/in/dilan-rajitha-6bb24321a/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Dilan-Rajitha" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <!-- <a href="https://www.linkedin.com/in/dilan-rajitha-6bb24321a/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a> -->
+                </div>
+
+
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="pattern-bg"></div>
+              <div class="img-box">
+                <img src="myimage.png" alt="image" class="hero-img">
+                <div class="shape shape1"></div>
+                <div class="shape shape2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+      <button type="button" class="scroll_down" href="#" id="scroll_down"></button>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about">
+      <h2 class="h1">About</h2>
+      <p class="h4">My Personal Journey</p>
+  
+      <div class="timeline-container">
+          <div class="timeline-header">
+              <div class="timeline-type education" data-filter="education">
+                  <i class="fas fa-graduation-cap"></i>
+                  <span>Education</span>
+              </div>
+              <div class="timeline-type experience" data-filter="experience">
+                  <i class="fas fa-briefcase"></i>
+                  <span>Experience</span>
+              </div>
+          </div>
+  
+          <div class="timeline">
+              <!-- Education Timeline -->
+              <div class="timeline-item left" data-type="education">
+                  <div class="content">
+                      <h3>BSc (Hons) Software Engineering</h3>
+                      <p class="institution">Cardiff Metropolitan University UK</p>
+                      <p class="period">Undergraduate (2024-2025)</p>
+                  </div>
+              </div>
+  
+              <div class="timeline-item right" data-type="education">
+                  <div class="content">
+                      <h3>HD in Computing & Software Engineering</h3>
+                      <p class="institution">Cardiff Metropolitan University UK</p>
+                      <p class="period">Grade - Merit Pass (2024)</p>
+                  </div>
+              </div>
+  
+              <div class="timeline-item left" data-type="education">
+                  <div class="content">
+                      <h3>BSc (Hons) Software Engineering</h3>
+                      <p class="institution">Open University Sri Lanka</p>
+                      <p class="period">Undergraduate (2021)</p>
+                  </div>
+              </div>
+  
+              <!-- Experience Timeline -->
+              <div class="timeline-item right" data-type="experience">
+                  <div class="content">
+                      <h3>Software Engineer Intern</h3>
+                      <p class="institution">Sri Lanka Telecome</p>
+                      <p class="period">2025 - Feb - present</p>  
+                  </div>
+              </div>
+  
+              <div class="timeline-item left" data-type="experience">
+                  <div class="content">
+                      <h3>Freelance Web Developer</h3>
+                      <p class="institution">Self-Employed</p>
+                      <p class="period">2023 - Present</p>
+                      
+                  </div>
+              </div>
+  
+              
+          </div>
+      </div>
+    </section>
+<!-- ========== ABOUT SECTION END ========== -->
+
+
+    <!-- ========== PROJECTS SECTION ========== -->
+    <section id="projects" class="projects">
+      <!-- Add your "Projects" content here -->
+      <div class="container">
+        <h2>Projects</h2>
+        <p>This section will display your projects or portfolio work.</p>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section id="contact-section" class="contact">
+      <h1 class="section-title">Get in touch</h1>
+        <p class="subtitle">Contact Me</p>
+    
+        <div class="contact-container">
+            <!-- Left side with contact cards -->
+            <div class="contact-left">
+                <div class="contact-card">
+                    <i class="bi bi-envelope"></i>
+                    <h3>Email</h3>
+                    <p>sdgdrp.asia@gmail.com</p>
+                    <a class="contact-link" href="mailto:sdgdrp.asia@gmail.com">Write me →</a>
+                </div>
+    
+                <div class="contact-card">
+                    <i class="bi bi-whatsapp"></i>
+                    <h3>WhatsApp</h3>
+                    <p>+94 77 508 1086</p>
+                    <a class="contact-link" href="https://wa.me/94775081086">Write me →</a>
+                </div>
+    
+                <div class="contact-card">
+                    <i class="bi bi-discord"></i>
+                    <h3>Discord</h3>
+                    <p>dilan_rajitha_37404</p>
+                    <a href="#">Write me →</a>
+                </div>
+            </div>
+    
+            <!-- Right side with contact form -->
+            <div class="contact-right">
+                
+
+
+               <!-- Checking contact code -->
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+
+                  <!-- Replace with your Access Key -->
+                  <input type="hidden" name="access_key" value="1b644e5e-6150-4e42-9cda-74fa48830a52">
+              
+                  <!-- Form Inputs. Each input must have a name="" attribute -->
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Your Name" required>
+
+                  <label for="emailid">Email</label>
+                  <input type="email" name="email" placeholder="Your Email" required>
+
+                  <label for="msgContent">Description</label>
+                  <textarea name="message" placeholder="Message" required></textarea>
+              
+                  <!-- Honeypot Spam Protection -->
+                  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+              
+                  <!-- Custom Confirmation / Success Page -->
+                  <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+              
+                  <button type="submit">Submit Form</button>
+              
+              </form>
+              <!-- Checking contact code end -->
+            </div>
+    </section>
+
+  </main>
+
+  <!-- =================== SCRIPTS =================== -->
+  <script src="dashboard.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
